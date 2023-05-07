@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=M+PLUS+Rounded+1c:wght@800&family=Ubuntu:ital,wght@0,500;1,300;1,700&display=swap');
+.allpage {
+    text-align: center;
+    font-family: 'Amatic SC';
+    font-size: 30px;
+}
+.title{
+    color: #d3a40b;
+    font-size: 35px;
+}
+.hidden_mesage{
+    display: none;
+    z-index: 1;
+    color: #f5329d;
+    font-size: 35px;
+}
+#dropdown{
+    margin: auto;
+}
+#btn{
+    float: left;
+    margin-left: 380px;
+    padding: 25px;
+}
+.card {
+    box-sizing:border-box;
+    margin: 2px;
+    display: none;
+}
+.backimg {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+.frontimg {
+    display: none;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+.allimg {
+    width: 900px;
+    margin: auto;
+}
+.is-flipped {
+    transform: rotateY(360deg);
+}
+
