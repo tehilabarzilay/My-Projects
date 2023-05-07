@@ -1,0 +1,36 @@
+* {
+    font-family: 'Assistant';
+}
+
+th {
+    background-color: black;
+    color: #fff;
+}
+
+td, th {
+    border: 1px solid #777;
+    text-align: center;
+    padding: 8px 22px;
+}
+ 
+table {
+    margin: 0 auto;
+}
+ 
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
+form {
+    margin-top: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: grey;
+  }
