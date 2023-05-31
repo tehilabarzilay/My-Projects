@@ -109,7 +109,8 @@ function play($session_id, $player_id, $posion) {
                 } else {
                     echo json_encode(
                         array(
-                            'error' =>  'NOT ALLOWED'
+                            'error' =>  'NOT ALLOWED',
+                            'board' => $boardArray
                         )
                     );
                 } 
