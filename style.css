@@ -1,0 +1,12 @@
+.users-list span {
+    border: solid 2px;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.users {
+    text-decoration: underline;
+    cursor: pointer;
+}
